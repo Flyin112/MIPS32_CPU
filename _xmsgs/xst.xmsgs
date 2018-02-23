@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"F:\Documents\Verilog HDL\lab3\Instruction_memory.v" Line 31: Signal &lt;<arg fmt="%s" index="1">InstMem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"F:\Documents\Verilog HDL\lab2\Ctr.v" Line 80: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"F:\Documents\Verilog HDL\lab2\Ctr.v" Line 92: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"F:\Documents\Verilog HDL\lab2\Ctr.v" Line 104: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="296" delta="old" >"F:\Documents\Verilog HDL\lab2\Ctr.v" Line 116: case condition never applies due to comparison with x or z
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 103: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Imm16Ext</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 107: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 28: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 28: Assignment to <arg fmt="%s" index="1">Out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">MUX2_5</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 151: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Output</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 28: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 28: Assignment to <arg fmt="%s" index="1">Out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">MUX2_32</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"F:\Documents\Verilog HDL\lab2\ALU.v" Line 32: Signal &lt;<arg fmt="%s" index="1">Rst</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 166: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ALURes</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 166: Assignment to <arg fmt="%s" index="1">aluout</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 182: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">EX_WriteRegAddr</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"F:\Documents\Verilog HDL\lab3\Data_memory.v" Line 34: Signal &lt;<arg fmt="%s" index="1">DataMem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 223: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Port1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 160: Net &lt;<arg fmt="%s" index="1">exaluout[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 49: Input port <arg fmt="%s" index="1">Stall</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">30</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pc_reg</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC_Reg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">37</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pcadd</arg>&gt; of block &lt;<arg fmt="%s" index="4">PCADD</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">42</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">instmem</arg>&gt; of block &lt;<arg fmt="%s" index="4">Instruction_memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">49</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ifid</arg>&gt; of block &lt;<arg fmt="%s" index="4">IF_ID</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">66</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">cu</arg>&gt; of block &lt;<arg fmt="%s" index="4">Ctr</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">83</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">regs</arg>&gt; of block &lt;<arg fmt="%s" index="4">register</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">95</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">signext</arg>&gt; of block &lt;<arg fmt="%s" index="4">Sign_Ext</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">100</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">branchjumpaddr</arg>&gt; of block &lt;<arg fmt="%s" index="4">BranchJumpAddr</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">120</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">idex</arg>&gt; of block &lt;<arg fmt="%s" index="4">ID_EX</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">147</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux2</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2_5</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">154</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux3</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">174</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">exmem</arg>&gt; of block &lt;<arg fmt="%s" index="4">EX_MEM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">191</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">datamem</arg>&gt; of block &lt;<arg fmt="%s" index="4">Data_memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">201</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">memwb</arg>&gt; of block &lt;<arg fmt="%s" index="4">MEM_WB</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">215</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux4</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux1</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2_32</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">Top</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">Stall</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">ifid</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\Documents\Verilog HDL\MIPS_CPU\Top.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">ALURes</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">exaluout</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+</messages>
+
