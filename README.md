@@ -6,3 +6,6 @@
     J型：JUMP  
     分支跳转指令的地址计算提前至译码段执行。  
 ![架构图](https://github.com/Flyin112/MIPS32_CPU/blob/master/MIPSCPU.jpg)
+参考：<br>[《自己动手写CPU》](https://pan.baidu.com/s/1eTKcjVO)  
+[《CPU自制入门》](https://pan.baidu.com/s/1slYYBu9)<br>
+[课程设计资料](https://pan.baidu.com/s/1kVTfkLT)
