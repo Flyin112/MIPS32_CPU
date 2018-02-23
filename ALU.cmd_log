@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/Documents/Verilog HDL/MIPS_CPU/ALU.xst" -ofn "F:/Documents/Verilog HDL/MIPS_CPU/ALU.syr" 
+xst -intstyle ise -ifn "F:/Documents/Verilog HDL/MIPS_CPU/ALU.xst" -ofn "F:/Documents/Verilog HDL/MIPS_CPU/ALU.syr" 

@@ -1,0 +1,50 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/Documents/Verilog HDL/MIPS_CPU/Top_tb_isim_beh.exe -prj F:/Documents/Verilog HDL/MIPS_CPU/Top_tb_beh.prj work.Top_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/MUX2_5.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/MEM_WB.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/IF_ID.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/ID_EX.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/EX_MEM.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/BranchJumpAddr.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab4/Sign_Ext.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab4/PC_Reg.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab4/PCADD.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab4/MUX2_32.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab3/register.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab3/Instruction_memory.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab3/Data_memory.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab2/Ctr.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/../lab2/ALU.v" into library work
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/Top.v" into library work
+WARNING:HDLCompiler:35 - "F:/Documents/Verilog HDL/MIPS_CPU/Top.v" Line 64: <branchjump> is already implicitly declared earlier.
+Analyzing Verilog file "F:/Documents/Verilog HDL/MIPS_CPU/Top_tb.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC_Reg
+Compiling module PCADD
+Compiling module Instruction_memory
+Compiling module IF_ID
+Compiling module Ctr
+Compiling module register
+Compiling module Sign_Ext
+Compiling module BranchJumpAddr
+Compiling module ID_EX
+Compiling module MUX2_5
+Compiling module MUX2_32
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module Data_memory
+Compiling module MEM_WB
+Compiling module Top
+Compiling module Top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable F:/Documents/Verilog HDL/MIPS_CPU/Top_tb_isim_beh.exe
+Fuse Memory Usage: 49016 KB
+Fuse CPU Usage: 1609 ms

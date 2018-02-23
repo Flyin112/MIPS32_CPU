@@ -1,0 +1,373 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.84 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.84 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg484
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" into library work
+Parsing module <MUX2_5>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\MEM_WB.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <MEM_WB>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\IF_ID.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <IF_ID>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\ID_EX.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <ID_EX>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\EX_MEM.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <EX_MEM>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\BranchJumpAddr.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <BranchJumpAddr>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab4\Sign_Ext.v" into library work
+Parsing module <Sign_Ext>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab4\PC_Reg.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <PC_Reg>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab4\PCADD.v" into library work
+Parsing module <PCADD>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab4\MUX2_32.v" into library work
+Parsing module <MUX2_32>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab3\register.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <register>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab3\Instruction_memory.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <Instruction_memory>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab3\Data_memory.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <Data_memory>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab2\Ctr.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <Ctr>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\lab2\ALU.v" into library work
+Parsing verilog file "defines.v" included at line 21.
+Parsing module <ALU>.
+Analyzing Verilog file "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" into library work
+Parsing module <Top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Top>.
+
+Elaborating module <PC_Reg>.
+
+Elaborating module <PCADD>.
+
+Elaborating module <Instruction_memory>.
+Reading initialization file \"InstMem.data\".
+WARNING:HDLCompiler:1670 - "F:\Documents\Verilog HDL\lab3\Instruction_memory.v" Line 31: Signal <InstMem> in initial block is partially initialized.
+
+Elaborating module <IF_ID>.
+
+Elaborating module <Ctr>.
+WARNING:HDLCompiler:296 - "F:\Documents\Verilog HDL\lab2\Ctr.v" Line 80: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "F:\Documents\Verilog HDL\lab2\Ctr.v" Line 92: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "F:\Documents\Verilog HDL\lab2\Ctr.v" Line 104: case condition never applies due to comparison with x or z
+WARNING:HDLCompiler:296 - "F:\Documents\Verilog HDL\lab2\Ctr.v" Line 116: case condition never applies due to comparison with x or z
+
+Elaborating module <register>.
+
+Elaborating module <Sign_Ext>.
+
+Elaborating module <BranchJumpAddr>.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 103: Size mismatch in connection of port <Imm16Ext>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 107: Size mismatch in connection of port <PC>. Formal port size is 32-bit while actual signal size is 1-bit.
+
+Elaborating module <ID_EX>.
+
+Elaborating module <MUX2_5>.
+WARNING:HDLCompiler:413 - "F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 28: Result of 5-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 28: Assignment to Out ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\Documents\Verilog HDL\MIPS_CPU\MUX2_5.v" Line 21: Empty module <MUX2_5> remains a black box.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 151: Size mismatch in connection of port <Output>. Formal port size is 5-bit while actual signal size is 1-bit.
+
+Elaborating module <MUX2_32>.
+WARNING:HDLCompiler:413 - "F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 28: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1127 - "F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 28: Assignment to Out ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\Documents\Verilog HDL\lab4\MUX2_32.v" Line 21: Empty module <MUX2_32> remains a black box.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:91 - "F:\Documents\Verilog HDL\lab2\ALU.v" Line 32: Signal <Rst> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 166: Size mismatch in connection of port <ALURes>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 166: Assignment to aluout ignored, since the identifier is never used
+
+Elaborating module <EX_MEM>.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 182: Size mismatch in connection of port <EX_WriteRegAddr>. Formal port size is 5-bit while actual signal size is 1-bit.
+
+Elaborating module <Data_memory>.
+Reading initialization file \"DataMem.data\".
+WARNING:HDLCompiler:1670 - "F:\Documents\Verilog HDL\lab3\Data_memory.v" Line 34: Signal <DataMem> in initial block is partially initialized.
+
+Elaborating module <MEM_WB>.
+WARNING:HDLCompiler:189 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 223: Size mismatch in connection of port <Port1>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:634 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 160: Net <exaluout[31]> does not have a driver.
+WARNING:HDLCompiler:552 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" Line 49: Input port Stall is not connected on this instance
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 30. All outputs of instance <pc_reg> of block <PC_Reg> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 37. All outputs of instance <pcadd> of block <PCADD> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 42. All outputs of instance <instmem> of block <Instruction_memory> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 49. All outputs of instance <ifid> of block <IF_ID> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 66. All outputs of instance <cu> of block <Ctr> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 83. All outputs of instance <regs> of block <register> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 95. All outputs of instance <signext> of block <Sign_Ext> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 100. All outputs of instance <branchjumpaddr> of block <BranchJumpAddr> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 120. All outputs of instance <idex> of block <ID_EX> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 147. All outputs of instance <mux2> of block <MUX2_5> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 154. All outputs of instance <mux3> of block <MUX2_32> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 161. All outputs of instance <alu> of block <ALU> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 174. All outputs of instance <exmem> of block <EX_MEM> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 191. All outputs of instance <datamem> of block <Data_memory> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 201. All outputs of instance <memwb> of block <MEM_WB> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 215. All outputs of instance <mux4> of block <MUX2_32> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 221. All outputs of instance <mux1> of block <MUX2_32> are unconnected in block <Top>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Top>.
+    Related source file is "F:\Documents\Verilog HDL\MIPS_CPU\Top.v".
+WARNING:Xst:2898 - Port 'Stall', unconnected in block instance 'ifid', is tied to GND.
+INFO:Xst:3210 - "F:\Documents\Verilog HDL\MIPS_CPU\Top.v" line 161: Output port <ALURes> of the instance <alu> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <exaluout> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Top> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg484-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    320     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 46.00 secs
+Total CPU time to Xst completion: 45.97 secs
+ 
+--> 
+
+Total memory usage is 420028 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
